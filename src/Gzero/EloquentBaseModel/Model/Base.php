@@ -1,5 +1,7 @@
 <?php namespace Gzero\EloquentBaseModel\Model;
 
+use Illuminate\Database\Eloquent\Model;
+
 /**
  * Class Base Model
  *
@@ -8,7 +10,7 @@
  * @author  Adrian Skierniewski <adrian.skierniewski@gmail.com>
  * @package Gzero\EloquentBaseModel\Model
  */
-abstract class Base extends \Eloquent {
+abstract class Base extends Model {
 
     /**
      * Create a new Eloquent Collection instance.
