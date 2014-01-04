@@ -1,0 +1,20 @@
+{
+    "name": "gzero/eloquent-base-model",
+    "description": "",
+    "authors": [
+        {
+            "name": "Adrian Skierniewski",
+            "email": "adrian.skierniewski@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "illuminate/support": "4.1.x"
+    },
+    "autoload": {
+        "psr-0": {
+            "Gzero\\EloquentBaseModel": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
