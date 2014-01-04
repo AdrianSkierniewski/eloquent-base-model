@@ -8,7 +8,7 @@
  * @author  Adrian Skierniewski <adrian.skierniewski@gmail.com>
  * @package Gzero\EloquentBaseModel\Model
  */
-abstract class Base {
+abstract class Base extends \Eloquent {
 
     /**
      * Create a new Eloquent Collection instance.
