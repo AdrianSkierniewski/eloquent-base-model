@@ -1,15 +1,17 @@
 {
     "name": "gzero/eloquent-base-model",
-    "description": "",
+    "description": "Eloquent Base Model is eloquent ORM model for inheritance.",
+    "keywords": ["laravel", "eloquent"],
+    "license": "MIT",
     "authors": [
         {
             "name": "Adrian Skierniewski",
-            "email": "adrian.skierniewski@gmail.com"
+            "email": "adrian.skierniewski@gmail.com",
+            "homepage": "https://github.com/AdrianSkierniewski"
         }
     ],
     "require": {
-        "php": ">=5.3.0",
-        "illuminate/support": "4.1.x"
+        "php": ">=5.3.0"
     },
     "autoload": {
         "psr-0": {
